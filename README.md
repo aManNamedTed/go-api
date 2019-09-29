@@ -13,6 +13,8 @@ REST API written in Go that displays all of my projects as a JSON object to curi
 ### Get All Projects Request Example (Python)
 ```python
   import requests
+  import json
+
   r = requests.get("api.davidamante.com/projects")
   data = json.dumps(r.json(), sort_keys=True, indent=4)
   print(data)
@@ -64,6 +66,8 @@ REST API written in Go that displays all of my projects as a JSON object to curi
 ### Get Single Project Request Example (Python)
 ```python
   import requests
+  import json
+  
   r = requests.get("api.davidamante.com/projects/31")
   data = json.dumps(r.json(), sort_keys=True, indent=4)
   print(data)
