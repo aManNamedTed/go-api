@@ -3,7 +3,7 @@ package models
 import (
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/jinzhu/gorm"
-	"github.com/jinzhu/godotenv"
+	"github.com/joho/godotenv"
 	"fmt"
 	"os"
 )
