@@ -1,7 +1,6 @@
 package models
 
 import (
-	u "go-api/utils"
 	"github.com/jinzhu/gorm"
 	"fmt"
 )
@@ -23,7 +22,7 @@ func GetProject(id uint) (*Project) {
 	if err != nil {
 		return nil
 	}
-	
+
 	return project
 }
 
