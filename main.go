@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"go-api/app"
+	//"go-api/app"
 	"go-api/controllers"
 	"os"
 	"fmt"

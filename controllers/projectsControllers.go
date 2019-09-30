@@ -3,7 +3,6 @@ package controllers
 import (
 	"net/http"
 	"go-api/models"
-	"encoding/json"
 	u "go-api/utils"
 )
 
