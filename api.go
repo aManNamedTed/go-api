@@ -4,6 +4,7 @@ package main
 import (
 	"encoding/json"
 	"os"
+	"fmt"
 	"io/ioutil"
 	"strconv"
 	"log"
@@ -26,6 +27,10 @@ type Project struct {
 }
 
 var projects Projects
+
+func getLandingPage(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Welcome to David Amante's Project API. Try adding /projects or /projects/{id}.")
+}
 
 func getProjects(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
@@ -65,6 +70,7 @@ func main() {
 
 	json.Unmarshal(byteValue, &projects)
 
+	r.HandleFunc("/", getLandingPage)
 	r.HandleFunc("/projects", getProjects).Methods("GET")
 	r.HandleFunc("/projects/", getProjects).Methods("GET")
 	r.HandleFunc("/projects/{id}", getProject).Methods("GET")
