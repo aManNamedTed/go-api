@@ -1,5 +1,14 @@
 {
-    "projects": [
+    "Projects": [
+        {
+            "id": 32,
+            "title": "Projects API",
+            "link": "http://api.davidamante.com",
+            "date": "2019-09-29T00:00:00.000Z",
+            "description": "REST API written in Golang that serves my personal project(s) data through an endpoint. It is actively in development to expand its functionality.",
+            "technologies": ["Go", "Heroku"],
+            "categories": ["API", "Back-End", "Application", "Software"]
+        },
         {
             "id": 31,
             "title": "Password Generator",
