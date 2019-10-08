@@ -1,1 +1,1 @@
-web: bin/go-api.exe
+web: bin/src.exe

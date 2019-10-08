@@ -52,8 +52,8 @@ func getProject(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	port := os.Getenv("PORT")
 	r := mux.NewRouter()
+	port := os.Getenv("PORT")
 
 	jsonFile, _ :=  os.Open("Projects.json")
 
