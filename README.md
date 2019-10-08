@@ -15,7 +15,7 @@ REST API written in Go that displays all of my projects as a JSON object to curi
   import requests
   import json
 
-  r = requests.get("api.davidamante.com/projects")
+  r = requests.get("http://api.davidamante.com/projects")
   data = json.dumps(r.json(), sort_keys=True, indent=4)
   print(data)
 ```
@@ -95,7 +95,7 @@ REST API written in Go that displays all of my projects as a JSON object to curi
   import requests
   import json
   
-  r = requests.get("api.davidamante.com/projects/31")
+  r = requests.get("http://api.davidamante.com/projects/31")
   data = json.dumps(r.json(), sort_keys=True, indent=4)
   print(data)
 ```  
