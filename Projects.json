@@ -1,281 +1,283 @@
-[
-    {
-        "id": 31,
-        "title": "Password Generator",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/22e60",
-        "date": "2019-08-17T00:00:00.000Z",
-        "description": "Generates a single 32 character password using various sensors and a base-93 alphabet. Over 200 bits of security!",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "Security", "Application", "Software"]
-    },
-    {
-        "id": 30,
-        "title": "Personal Website",
-        "link": "https://davidamante.com",
-        "date": "2019-07-19T00:00:00.000Z",
-        "description": "Version 4.0 of my personal website that serves as my professional portfolio. (the website you are currently viewing!)",
-        "technologies": ["React", "Javascript", "Firebase", "HTML", "CSS"],
-        "categories": ["Web", "Mobile", "Software"]
-    },
-    {
-        "id": 29,
-        "title": "Automated Email Sender",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/auto_email_sender",
-        "date": "2019-02-01T00:00:00.000Z",
-        "description": "Google Apps Script that sends graded assignment scores to a list of student emails via Google Sheets.",
-        "technologies": ["Javascript"],
-        "categories": ["Developer Tools", "Application", "Back-End", "Software"]
-    },
-    {
-        "id": 28,
-        "title": "Menorah",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/menorah",
-        "date": "2018-11-01T00:00:00.000Z",
-        "description": "Features 9 LEDs that each represent a candle on a Hanukkah menorah. Includes features such as day progression, and candle-like LED flicker.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "Software"]
-    },
-    {
-        "id": 27,
-        "title": "LaunchPad Music Library",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/launchPadNoteLib",
-        "date": "2018-10-01T00:00:00.000Z",
-        "description": "Music library expressed through sound frequencies, a Piezo buzzer and microcontroller.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "API", "Application", "Software"]
-    },
-    {
-        "id": 26,
-        "title": "Refreshable Braille Display Library",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/refreshableBrailleDisplay",
-        "date": "2018-10-01T00:00:00.000Z",
-        "description": "SD Hacks 2018 Demo: Driver for an analog refreshable braille display using six servos and a microcontroller.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "API", "Software"]
-    },
-    {
-        "id": 25,
-        "title": "Cyclone",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/cyclone",
-        "date": "2018-09-01T00:00:00.000Z",
-        "description": "Popular reaction-time-based arcade game using an array of LEDs and microcontroller.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "Game", "Software"]
-    },
-    {
-        "id": 24,
-        "title": "Motion-Activated Lights",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/ultraSonicLights",
-        "date": "2018-08-01T00:00:00.000Z",
-        "description": "Motion-activated lights using an ultrasonic sensor and microcontroller.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "Application", "Software"]
-    },
-    {
-        "id": 23,
-        "title": "Password Sequence",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/passwordSequence",
-        "date": "2018-08-01T00:00:00.000Z",
-        "description": "Secure sign-in hardware using a unique combination of n characters; can be extended to include as many characters/inputs as necessary.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "Security", "Application", "Software"]
-    },
-    {
-        "id": 22,
-        "title": "Binary Counter",
-        "link": "https://github.com/aManNamedTed/arduino/tree/master/binaryCounter",
-        "date": "2018-08-01T00:00:00.000Z",
-        "description": "An array of LEDs that count in binary.",
-        "technologies": ["Arduino", "C++"],
-        "categories": ["Embedded Systems", "Software"]
-    },
-    {
-        "id": 21,
-        "title": "Windows Music Library",
-        "link": "https://github.com/aManNamedTed/windows-music-library",
-        "date": "2018-07-01T00:00:00.000Z",
-        "description": "Experimenting with Windows' Beep() functionality and extending it to produce music. Thoroughly documented.",
-        "technologies": ["C++"],
-        "categories": ["API", "Application", "Software"]
-    },
-    {
-        "id": 20,
-        "title": "CPU Scheduler",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/algorithms/rr.cpp",
-        "date": "2018-07-01T00:00:00.000Z",
-        "description": "An attempt at understanding round robin CPU scheduling by designing and implementing a Process object.",
-        "technologies": ["C++"],
-        "categories": ["Application", "Developer Tools", "Software"]
-    },
-    {
-        "id": 19,
-        "title": "League of Legends Analysis",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/league_of_legends/League%20of%20Legends%20Analysis.ipynb",
-        "date": "2018-05-01T00:00:00.000Z",
-        "description": "Analysis of possible permutations of champion selection in the game, League of Legends.",
-        "technologies": ["Python", "Jupyter"],
-        "categories": ["Data Science", "Software"]
-    },
-    {
-        "id": 18,
-        "title": "Yelp Dataset Statistical Analysis",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/yelp_datasci/FinalProject.ipynb",
-        "date": "2018-03-01T00:00:00.000Z",
-        "description": "A data science capstone project using linear regression and machine learning to glean useful information on Yelp reviews.",
-        "technologies": ["Python", "Jupyter"],
-        "categories": ["Data Science", "Software"]
-    },
-    {
-        "id": 17,
-        "title": "Point of Sale Software",
-        "link": "https://github.com/aManNamedTed/personalprojects/tree/master/register",
-        "date": "2018-02-01T00:00:00.000Z",
-        "description": "Point of Sale software that I used as a hook to start learning and understanding Python 2.X",
-        "technologies": ["Python"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 16,
-        "title": "Vector Calculator",
-        "link": "https://github.com/aManNamedTed/personalprojects/tree/master/vectors",
-        "date": "2018-02-01T00:00:00.000Z",
-        "description": "Support various binary operators on two vectors such as vector addition, subtraction, dot product, and cross product.",
-        "technologies": ["Python"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 15,
-        "title": "Student Organization Website",
-        "link": "https://tritongaming.org",
-        "date": "2017-10-01T00:00:00.000Z",
-        "description": "Developed UC San Diego's Triton Gaming (gaming and animation club) website jointly with four other students for student interaction and recruitment.",
-        "technologies": ["React", "Javascript", "Firebase", "HTML", "CSS"],
-        "categories": ["Web", "Mobile", "Software"]
-    },
-    {
-        "id": 14,
-        "title": "Decimal to Binary Converter",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/just_for_funsies/DectoBin.java",
-        "date": "2016-08-01T00:00:00.000Z",
-        "description": "Plug in a decimal number and convert it into a binary number.",
-        "technologies": ["Java"],
-        "categories": ["Application", "Developer Tools", "Software"]
-    },
-    {
-        "id": 13,
-        "title": "Law of Cosines/Sines",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/law_of_sines_and_cosines/law_of_sines_and_cosines.cpp",
-        "date": "2016-07-01T00:00:00.000Z",
-        "description": "Formula to solve the law of sines and the law of cosines.",
-        "technologies": ["C++"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 12,
-        "title": "Matrix Solver",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/matrix_calculator/matrix.cpp",
-        "date": "2016-07-01T00:00:00.000Z",
-        "description": "Solves two 3x2 matrices through extension of the matrix.",
-        "technologies": ["C++"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 11,
-        "title": "Cubic Equation Solver",
-        "link": "https://github.com/aManNamedTed/personalprojects/tree/master/cubic_equation_to_LaTeX",
-        "date": "2016-07-01T00:00:00.000Z",
-        "description": "Plug in numbers for the cubic equation and have the steps translated into a LaTeX file, with the solution included.",
-        "technologies": ["C++", "LaTeX"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 10,
-        "title": "Quadratic Equation Solver",
-        "link": "https://github.com/aManNamedTed/personalprojects/tree/master/quadratic_equation_to_LaTeX",
-        "date": "2016-06-01T00:00:00.000Z",
-        "description": "Plug in numbers for the quadratic equation and have the steps translated into a LaTeX file, with the solution included.",
-        "technologies": ["C++", "LaTeX"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 9,
-        "title": "Pascal's Triangle (Row, Term) Calculator",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/just_for_funsies/pascals_triangle.cpp",
-        "date": "2016-06-01T00:00:00.000Z",
-        "description": "Recursively calculates any term of any row of Pascal's Triangle in factorial time.",
-        "technologies": ["C++"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 8,
-        "title": "Tic-Tac-Toe",
-        "link": "https://github.com/aManNamedTed/personalprojects/blob/master/peculiars/tictactoe.cpp",
-        "date": "2016-06-01T00:00:00.000Z",
-        "description": "The canonical tic-tac-toe program for the burgeoning programmer.",
-        "technologies": ["C++"],
-        "categories": ["Game", "Software"]
-    },
-    {
-        "id": 7,
-        "title": "Line Editor",
-        "link": "https://github.com/aManNamedTed/personalprojects/tree/master/line_editor",
-        "date": "2016-06-01T00:00:00.000Z",
-        "description": "Simple line editor that has read, write, replace, save, and delete capabilities.",
-        "technologies": ["C++"],
-        "categories": ["Developer Tools", "Software"]
-    },
-    {
-        "id": 6,
-        "title": "Restaurant Menu Design",
-        "link": "https://github.com/aManNamedTed/menu-designs/blob/master/pdf/pmgFullMenu.pdf",
-        "date": "2016-02-01T00:00:00.000Z",
-        "description": "Created a sole proprietorship to sell an original menu design to a local restaurant.",
-        "technologies": ["HTML", "CSS", "Photoshop"],
-        "categories": ["Web", "Software"]
-    },
-    {
-        "id": 5,
-        "title": "Business Cards",
-        "link": "https://github.com/aManNamedTed/biz-cards",
-        "date": "2016-01-01T00:00:00.000Z",
-        "description": "Business card design that can make 16 to 20 business cards per 8.5'' by 11'' sheet of paper. Just cut and laminate!",
-        "technologies": ["HTML", "CSS"],
-        "categories": ["Web", "Software"]
-    },
-    {
-        "id": 4,
-        "title": "16th & Oak",
-        "link": "https://github.com/aManNamedTed/16th-Oak/blob/master/16th%26Oak.cpp",
-        "date": "2015-12-01T00:00:00.000Z",
-        "description": "Original text adventure game similar to Zork in the 80's. Features five characters and several commands to interact with your environment.",
-        "technologies": ["C++"],
-        "categories": ["Game", "Software"]
-    },
-    {
-        "id": 3,
-        "title": "Guitar Fret Notes",
-        "link": "https://github.com/aManNamedTed/music/blob/master/guitarfretnotes.cpp",
-        "date": "2015-12-01T00:00:00.000Z",
-        "description": "Displays all notes of each guitar string and fret.",
-        "technologies": ["C++"],
-        "categories": ["Application", "Software"]
-    },
-    {
-        "id": 2,
-        "title": "Conway's Game of Life",
-        "link": "https://github.com/aManNamedTed/gameoflife/blob/master/conwaygameoflife.cpp",
-        "date": "2015-11-01T00:00:00.000Z",
-        "description": "Cellular automaton game made famous by John Horton Conway in 1970.",
-        "technologies": ["C++"],
-        "categories": ["Game", "Software"]
-    },
-    {
-        "id": 1,
-        "title": "Piano Scales",
-        "link": "https://github.com/aManNamedTed/music/blob/master/pianoscales.cpp",
-        "date": "2015-10-01T00:00:00.000Z",
-        "description": "Displays every major piano scale and their unique variations.",
-        "technologies": ["C++"],
-        "categories": ["Application", "Software"]
-    }
-]
+{
+    "projects": [
+        {
+            "id": 31,
+            "title": "Password Generator",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/22e60",
+            "date": "2019-08-17T00:00:00.000Z",
+            "description": "Generates a single 32 character password using various sensors and a base-93 alphabet. Over 200 bits of security!",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "Security", "Application", "Software"]
+        },
+        {
+            "id": 30,
+            "title": "Personal Website",
+            "link": "https://davidamante.com",
+            "date": "2019-07-19T00:00:00.000Z",
+            "description": "Version 4.0 of my personal website that serves as my professional portfolio. (the website you are currently viewing!)",
+            "technologies": ["React", "Javascript", "Firebase", "HTML", "CSS"],
+            "categories": ["Web", "Mobile", "Software"]
+        },
+        {
+            "id": 29,
+            "title": "Automated Email Sender",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/auto_email_sender",
+            "date": "2019-02-01T00:00:00.000Z",
+            "description": "Google Apps Script that sends graded assignment scores to a list of student emails via Google Sheets.",
+            "technologies": ["Javascript"],
+            "categories": ["Developer Tools", "Application", "Back-End", "Software"]
+        },
+        {
+            "id": 28,
+            "title": "Menorah",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/menorah",
+            "date": "2018-11-01T00:00:00.000Z",
+            "description": "Features 9 LEDs that each represent a candle on a Hanukkah menorah. Includes features such as day progression, and candle-like LED flicker.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "Software"]
+        },
+        {
+            "id": 27,
+            "title": "LaunchPad Music Library",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/launchPadNoteLib",
+            "date": "2018-10-01T00:00:00.000Z",
+            "description": "Music library expressed through sound frequencies, a Piezo buzzer and microcontroller.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "API", "Application", "Software"]
+        },
+        {
+            "id": 26,
+            "title": "Refreshable Braille Display Library",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/refreshableBrailleDisplay",
+            "date": "2018-10-01T00:00:00.000Z",
+            "description": "SD Hacks 2018 Demo: Driver for an analog refreshable braille display using six servos and a microcontroller.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "API", "Software"]
+        },
+        {
+            "id": 25,
+            "title": "Cyclone",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/cyclone",
+            "date": "2018-09-01T00:00:00.000Z",
+            "description": "Popular reaction-time-based arcade game using an array of LEDs and microcontroller.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "Game", "Software"]
+        },
+        {
+            "id": 24,
+            "title": "Motion-Activated Lights",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/ultraSonicLights",
+            "date": "2018-08-01T00:00:00.000Z",
+            "description": "Motion-activated lights using an ultrasonic sensor and microcontroller.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "Application", "Software"]
+        },
+        {
+            "id": 23,
+            "title": "Password Sequence",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/passwordSequence",
+            "date": "2018-08-01T00:00:00.000Z",
+            "description": "Secure sign-in hardware using a unique combination of n characters; can be extended to include as many characters/inputs as necessary.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "Security", "Application", "Software"]
+        },
+        {
+            "id": 22,
+            "title": "Binary Counter",
+            "link": "https://github.com/aManNamedTed/arduino/tree/master/binaryCounter",
+            "date": "2018-08-01T00:00:00.000Z",
+            "description": "An array of LEDs that count in binary.",
+            "technologies": ["Arduino", "C++"],
+            "categories": ["Embedded Systems", "Software"]
+        },
+        {
+            "id": 21,
+            "title": "Windows Music Library",
+            "link": "https://github.com/aManNamedTed/windows-music-library",
+            "date": "2018-07-01T00:00:00.000Z",
+            "description": "Experimenting with Windows' Beep() functionality and extending it to produce music. Thoroughly documented.",
+            "technologies": ["C++"],
+            "categories": ["API", "Application", "Software"]
+        },
+        {
+            "id": 20,
+            "title": "CPU Scheduler",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/algorithms/rr.cpp",
+            "date": "2018-07-01T00:00:00.000Z",
+            "description": "An attempt at understanding round robin CPU scheduling by designing and implementing a Process object.",
+            "technologies": ["C++"],
+            "categories": ["Application", "Developer Tools", "Software"]
+        },
+        {
+            "id": 19,
+            "title": "League of Legends Analysis",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/league_of_legends/League%20of%20Legends%20Analysis.ipynb",
+            "date": "2018-05-01T00:00:00.000Z",
+            "description": "Analysis of possible permutations of champion selection in the game, League of Legends.",
+            "technologies": ["Python", "Jupyter"],
+            "categories": ["Data Science", "Software"]
+        },
+        {
+            "id": 18,
+            "title": "Yelp Dataset Statistical Analysis",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/yelp_datasci/FinalProject.ipynb",
+            "date": "2018-03-01T00:00:00.000Z",
+            "description": "A data science capstone project using linear regression and machine learning to glean useful information on Yelp reviews.",
+            "technologies": ["Python", "Jupyter"],
+            "categories": ["Data Science", "Software"]
+        },
+        {
+            "id": 17,
+            "title": "Point of Sale Software",
+            "link": "https://github.com/aManNamedTed/personalprojects/tree/master/register",
+            "date": "2018-02-01T00:00:00.000Z",
+            "description": "Point of Sale software that I used as a hook to start learning and understanding Python 2.X",
+            "technologies": ["Python"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 16,
+            "title": "Vector Calculator",
+            "link": "https://github.com/aManNamedTed/personalprojects/tree/master/vectors",
+            "date": "2018-02-01T00:00:00.000Z",
+            "description": "Support various binary operators on two vectors such as vector addition, subtraction, dot product, and cross product.",
+            "technologies": ["Python"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 15,
+            "title": "Student Organization Website",
+            "link": "https://tritongaming.org",
+            "date": "2017-10-01T00:00:00.000Z",
+            "description": "Developed UC San Diego's Triton Gaming (gaming and animation club) website jointly with four other students for student interaction and recruitment.",
+            "technologies": ["React", "Javascript", "Firebase", "HTML", "CSS"],
+            "categories": ["Web", "Mobile", "Software"]
+        },
+        {
+            "id": 14,
+            "title": "Decimal to Binary Converter",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/just_for_funsies/DectoBin.java",
+            "date": "2016-08-01T00:00:00.000Z",
+            "description": "Plug in a decimal number and convert it into a binary number.",
+            "technologies": ["Java"],
+            "categories": ["Application", "Developer Tools", "Software"]
+        },
+        {
+            "id": 13,
+            "title": "Law of Cosines/Sines",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/law_of_sines_and_cosines/law_of_sines_and_cosines.cpp",
+            "date": "2016-07-01T00:00:00.000Z",
+            "description": "Formula to solve the law of sines and the law of cosines.",
+            "technologies": ["C++"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 12,
+            "title": "Matrix Solver",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/matrix_calculator/matrix.cpp",
+            "date": "2016-07-01T00:00:00.000Z",
+            "description": "Solves two 3x2 matrices through extension of the matrix.",
+            "technologies": ["C++"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 11,
+            "title": "Cubic Equation Solver",
+            "link": "https://github.com/aManNamedTed/personalprojects/tree/master/cubic_equation_to_LaTeX",
+            "date": "2016-07-01T00:00:00.000Z",
+            "description": "Plug in numbers for the cubic equation and have the steps translated into a LaTeX file, with the solution included.",
+            "technologies": ["C++", "LaTeX"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 10,
+            "title": "Quadratic Equation Solver",
+            "link": "https://github.com/aManNamedTed/personalprojects/tree/master/quadratic_equation_to_LaTeX",
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "Plug in numbers for the quadratic equation and have the steps translated into a LaTeX file, with the solution included.",
+            "technologies": ["C++", "LaTeX"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 9,
+            "title": "Pascal's Triangle (Row, Term) Calculator",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/just_for_funsies/pascals_triangle.cpp",
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "Recursively calculates any term of any row of Pascal's Triangle in factorial time.",
+            "technologies": ["C++"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 8,
+            "title": "Tic-Tac-Toe",
+            "link": "https://github.com/aManNamedTed/personalprojects/blob/master/peculiars/tictactoe.cpp",
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "The canonical tic-tac-toe program for the burgeoning programmer.",
+            "technologies": ["C++"],
+            "categories": ["Game", "Software"]
+        },
+        {
+            "id": 7,
+            "title": "Line Editor",
+            "link": "https://github.com/aManNamedTed/personalprojects/tree/master/line_editor",
+            "date": "2016-06-01T00:00:00.000Z",
+            "description": "Simple line editor that has read, write, replace, save, and delete capabilities.",
+            "technologies": ["C++"],
+            "categories": ["Developer Tools", "Software"]
+        },
+        {
+            "id": 6,
+            "title": "Restaurant Menu Design",
+            "link": "https://github.com/aManNamedTed/menu-designs/blob/master/pdf/pmgFullMenu.pdf",
+            "date": "2016-02-01T00:00:00.000Z",
+            "description": "Created a sole proprietorship to sell an original menu design to a local restaurant.",
+            "technologies": ["HTML", "CSS", "Photoshop"],
+            "categories": ["Web", "Software"]
+        },
+        {
+            "id": 5,
+            "title": "Business Cards",
+            "link": "https://github.com/aManNamedTed/biz-cards",
+            "date": "2016-01-01T00:00:00.000Z",
+            "description": "Business card design that can make 16 to 20 business cards per 8.5'' by 11'' sheet of paper. Just cut and laminate!",
+            "technologies": ["HTML", "CSS"],
+            "categories": ["Web", "Software"]
+        },
+        {
+            "id": 4,
+            "title": "16th & Oak",
+            "link": "https://github.com/aManNamedTed/16th-Oak/blob/master/16th%26Oak.cpp",
+            "date": "2015-12-01T00:00:00.000Z",
+            "description": "Original text adventure game similar to Zork in the 80's. Features five characters and several commands to interact with your environment.",
+            "technologies": ["C++"],
+            "categories": ["Game", "Software"]
+        },
+        {
+            "id": 3,
+            "title": "Guitar Fret Notes",
+            "link": "https://github.com/aManNamedTed/music/blob/master/guitarfretnotes.cpp",
+            "date": "2015-12-01T00:00:00.000Z",
+            "description": "Displays all notes of each guitar string and fret.",
+            "technologies": ["C++"],
+            "categories": ["Application", "Software"]
+        },
+        {
+            "id": 2,
+            "title": "Conway's Game of Life",
+            "link": "https://github.com/aManNamedTed/gameoflife/blob/master/conwaygameoflife.cpp",
+            "date": "2015-11-01T00:00:00.000Z",
+            "description": "Cellular automaton game made famous by John Horton Conway in 1970.",
+            "technologies": ["C++"],
+            "categories": ["Game", "Software"]
+        },
+        {
+            "id": 1,
+            "title": "Piano Scales",
+            "link": "https://github.com/aManNamedTed/music/blob/master/pianoscales.cpp",
+            "date": "2015-10-01T00:00:00.000Z",
+            "description": "Displays every major piano scale and their unique variations.",
+            "technologies": ["C++"],
+            "categories": ["Application", "Software"]
+        }
+    ]
+}
