@@ -54,6 +54,10 @@ func getProject(w http.ResponseWriter, r *http.Request) {
 func main() {
 	r := mux.NewRouter()
 	port := os.Getenv("PORT")
+	if port == "" {
+		port = "5000"
+		log.Println("INFO: No PORT environment variable detected, defaulting to " + port)
+	}
 
 	jsonFile, _ :=  os.Open("Projects.json")
 
