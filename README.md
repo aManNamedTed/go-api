@@ -60,7 +60,7 @@ REST API written in Go that displays all of my projects as a JSON object to curi
 `GET /projects/<id>`
 
 ### Response
-- `404 Not Found` if project does not exist
+- `204 No Content` if project does not exist
 - `200 OK` on success
 
 ### Get Single Project Request Example (Python)
