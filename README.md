@@ -1,5 +1,5 @@
 # Go API for Projects
-REST API written in Go that displays all of my projects as a JSON object to curious callers. 
+REST API written in Go that displays my personal projects as a JSON object to curious callers. 
 
 # Usage
 
