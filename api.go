@@ -29,7 +29,7 @@ type Project struct {
 var projects Projects
 
 func getLandingPage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to David Amante's Project API. Try adding /projects or /projects/{id}.")
+	fmt.Fprintf(w, "Welcome to David Amante's Projects API. Try adding /projects or /projects/{id}.")
 }
 
 func getProjects(w http.ResponseWriter, r *http.Request) {
